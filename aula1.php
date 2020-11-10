@@ -11,5 +11,6 @@ do{
     }
     $valoiAtual++;
 }while($valoiAtual <= $valoiFinal);
+
         echo "\nfinal ";
 ?>
