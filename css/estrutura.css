@@ -1,0 +1,22 @@
+/* Faz ir pra todas as pagias * nao usar*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/******************************************/
+/* fundo da pagina */
+body{
+    background: #e1e1e1;
+}
+.linhaumIndex{
+        background: url(../img/tb.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+}
+
+/* embeleza menu */
+.menu{
+    background: #666;
+    height: 50px;
+   width: 1200px;
+}
