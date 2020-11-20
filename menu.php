@@ -1,16 +1,30 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <title>Navibar bootstrap</title>
+    <script>
+
+// Open close dropdown on click
+$("li.dropdown").click(function(){
+  if($(this).hasClass("open")) {
+    $(this).find(".dropdown-menu").slideUp("fast");
+    $(this).removeClass("open");
+  }
+  else { 
+    $(this).find(".dropdown-menu").slideDown("fast");
+    $(this).toggleClass("open");
+  }
+});
+  </script>
   </head>
   <body>
 
